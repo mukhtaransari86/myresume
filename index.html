@@ -299,6 +299,7 @@
             padding-bottom: 0.8rem; /* More padding below tabs */
             gap: 0.8rem; /* Increased space between tabs */
             justify-content: center; /* Changed from flex-start to center */
+            width: 100%; /* Added to ensure full width */
         }
         .tab-button {
             padding: 0.7rem 1.4rem; /* Increased padding for larger touch targets */
@@ -331,6 +332,7 @@
         /* Hide content sections by default */
         .tab-content-section {
             display: none;
+            width: 100%; /* Added to ensure full width */
         }
         /* Show active content section */
         .tab-content-section.active {
@@ -383,11 +385,11 @@
                 <img src="https://github.com/mukhtaransari86/myresume/blob/main/Docpp.jpg?raw=true" alt="Mukhtar Ansari Profile" class="profile-image">
             </div>
 
-            <h1>MUKHTAR ANSARI</h1>
+            <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-500 pb-1 mb-3">MUKHTAR ANSARI</h1>
             <p class="tagline">Global Vice President | Building Ethical AI-first Enterprises for Global Scale</p>
 
             <div class="contact-info mb-6">
-                <h2>CONTACT</h2>
+                <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-500 pb-1 mb-3">CONTACT</h2>
                 <p>Mumbai, India</p>
                 <p>+91 7666733111</p>
                 <p>mukhtar.ansari@gmail.com</p>
@@ -395,23 +397,24 @@
             </div>
 
             <div class="certifications-section mb-6">
-                <h2>CERTIFICATIONS</h2>
+                <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-500 pb-1 mb-3">CERTIFICATIONS</h2>
                 <ul>
-                    <li>AWS Certified Solutions Architect - Professional - 2017</li>
+                    <li>Certified CISM , ISACA - 2025</li>
                     <li>Certified Leadership, IIM Ahmedabad - 2023</li>
-                    <li>Cyber Law, Indian Institute of Law, Delhi - 2018</li>
                     <li>Google Project Management Professional Certificate, Coursera - 2022</li>
+                    <li>Cyber Law, Indian Institute of Law, Delhi - 2018</li>
+                    <li>AWS Certified Solutions Architect - Professional - 2017</li>
                     <li>Microsoft Server Virtualisation with Windows Server Hyper-V - 2014</li>
                 </ul>
             </div>
 
             <div class="languages-section mb-6">
-                <h2>LANGUAGES</h2>
+                <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-500 pb-1 mb-3">LANGUAGES</h2>
                 <p>English, Hindi, Marathi, Urdu</p>
             </div>
 
             <div class="leadership-philosophy-section mb-6">
-                <h2>LEADERSHIP PHILOSOPHY</h2>
+                 <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-500 pb-1 mb-3">LEADERSHIP PHILOSOPHY</h2>
                 <p>Committed to leveraging technology as a catalyst for equitable growth, fostering ethical, AI-first organizations, and empowering the next generation of IT leaders through dedicated mentorship.</p>
             </div>
         </div>
@@ -419,7 +422,7 @@
         <div class="right-column">
             <!-- Initial Summary Section - always visible on landing -->
             <div id="summary-landing" class="summary-section mb-6">
-                <h2>SUMMARY</h2>
+                 <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-500 pb-1 mb-3">SUMMARY</h2>
                 <p>Visionary IT Executive with 18+ years of progressive leadership, adept at driving large-scale digital transformation, fortifying enterprise security, and optimizing global IT infrastructure for multinational corporations. Proven leader leveraging AI/ML, IoT, and advanced cloud platforms (AWS, Azure) to deliver significant top-line growth (30%+) and substantial cost efficiencies (₹5Cr+ annual savings). Expertise in C-suite collaboration, international team leadership, and architecting comprehensive cybersecurity strategies (ISO 27001, Zero Trust, SSO, IAM, XDR, MDR, RBAC) and network management (400+ firewalls, SD-WAN), ensuring resilient, compliant operations. Focusing on strategic technological innovation to accelerate business objectives and secure sustainable growth.</p>
             </div>
 
@@ -447,14 +450,14 @@
                 <div id="summary-tab-content" class="tab-content-section active">
                     <!-- Content is the same as summary-landing, but it's now part of the tabbed interface -->
                     <div class="summary-section mb-6">
-                        <h2>SUMMARY</h2>
+                    <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-500 pb-1 mb-3">SUMMARY</h2>
                         <p>Visionary IT Executive with 18+ years of progressive leadership, adept at driving large-scale digital transformation, fortifying enterprise security, and optimizing global IT infrastructure for multinational corporations. Proven leader leveraging AI/ML, IoT, and advanced cloud platforms (AWS, Azure) to deliver significant top-line growth (30%+) and substantial cost efficiencies (₹5Cr+ annual savings). Expertise in C-suite collaboration, international team leadership, and architecting comprehensive cybersecurity strategies (ISO 27001, Zero Trust, SSO, IAM, XDR, MDR, RBAC) and network management (400+ firewalls, SD-WAN), ensuring resilient, compliant operations. Focusing on strategic technological innovation to accelerate business objectives and secure sustainable growth.</p>
                     </div>
                 </div>
 
                 <div id="key-metrics" class="tab-content-section">
                     <div class="key-metrics-section mb-6">
-                        <h2>KEY METRICS</h2>
+                       <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-500 pb-1 mb-3">KEY METRICS</h2>
                         <ul>
                             <li><strong>TOP</strong> Performer Awards in 2022, 2019, 2018, 2017 & 2014.</li>
                             <li><strong>Global IT Footprint:</strong> Spearheaded IT operations and infrastructure across 10+ global markets and 450+ cloud kitchens.</li>
@@ -465,10 +468,11 @@
 
                 <div id="core-competencies" class="tab-content-section">
                     <div class="core-competencies-section mb-6">
-                        <h2>CORE COMPETENCIES</h2>
+                      <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-500 pb-1 mb-3">CORE COMPETENCIES</h2>
                         <ul> <li><span class="font-semibold">Strategic IT Leadership:</span> Enterprise IT Strategy, Business Alignment, C-suite Collaboration, Cross-functional Team Leadership, IT Governance, Strategic Tech Investments, M&A Integration</li>
                             <li><span class="font-semibold">Cybersecurity & Risk Management:</span> ISO 27001, Zero Trust Architecture, ISMS, IT Governance, Regulatory Compliance, Risk Management, Cloud Security, End-User Security, Incident Response, Data Privacy, Single Sign-On (SSO), Identity & Access Management (IAM), Extended Detection & Response (XDR), Managed Detection & Response (MDR), Role-Based Access Control (RBAC)</li>
                             <li><span class="font-semibold">Cloud & Infrastructure Management:</span> AWS (EC2, S3, Lambda, EKS), Azure (VMs, AKS), Hybrid Cloud Architectures, Scalability, High Availability, Disaster Recovery, Network Management (400+ Firewalls, SD-WAN), Mobile Device Management (MDM), Large Scale IT Infrastructure Implementation & Maintenance</li>
+                            <li><span class="font-semibold">Network Management: </span> Networking, Firewall, MPLS, SIP Trunk and Media Gateways</li>
                             <li><span class="font-semibold">Digital & Business Transformation:</span> ERP/CRM (SAP S/4HANA), IoT, Edge Technologies, AI/ML Integration, LLMOps (GPT-4, Mistral RAG), Data Analytics (PySpark, Real-Time BI), Process Automation, Process & Productivity Enhancement</li>
                             <li><span class="font-semibold">DevOps & SRE Excellence:</span> Docker, Kubernetes, Jenkins, GitLab CI/CD, Prometheus, Grafana, Automation (Terraform, Ansible), Continuous Improvement</li>
                             <li><span class="font-semibold">Financial & Vendor Management:</span> Budget Planning, Cost Optimization (Cloud & Operations), Vendor Negotiations, SLA Management, Procurement</li>
@@ -481,7 +485,7 @@
 
                 <div id="career-journey" class="tab-content-section">
                     <div class="career-journey-section">
-                        <h2>CAREER JOURNEY</h2>
+                      <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-500 pb-1 mb-3">CAREER JOURNEY</h2>
                         <div class="career-journey">
                             <div class="experience-block">
                                 <strong>InMobi Pvt Ltd</strong>
@@ -513,7 +517,7 @@
 
                 <div id="accomplishments" class="tab-content-section">
                     <div class="select-accomplishments-section mb-6">
-                        <h2>ACCOMPLISHMENTS</h2>
+                     <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-500 pb-1 mb-3">ACCOMPLISHMENTS</h2>
                         <ul>
                             <li><strong>Cybersecurity & Compliance Transformation:</strong> Orchestrated comprehensive cybersecurity program (ISO 27001-certified ISMS, Zero Trust Architecture, advanced SSO, IAM, XDR, MDR, RBAC), achieving 40% reduction in vulnerabilities and 100% audit compliance (PwC, EY, KPMG), concurrently reducing cybersecurity insurance premiums by 15%.</li>
                             <li><strong>Global Infrastructure & Network Optimization:</strong> Directed strategic design and optimization of global network infrastructure (400+ firewalls, SD-WAN), ensuring secure, high-performance connectivity and robust end-user security across 450+ cloud kitchens and 10+ global markets. Deployed MDM solutions for efficient device management.</li>
@@ -529,7 +533,7 @@
 
                 <div id="awards" class="tab-content-section">
                     <div class="awards-recognitions-section mb-6">
-                        <h2>AWARDS & RECOGNITIONS</h2>
+                     <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-500 pb-1 mb-3">AWARDS & RECOGNITIONS</h2>
                         <ul>
                             <li><span class="font-semibold">Accomplishments ISO 27001:</span> Achieved 2013 certification, conducted PwC/EY/KPMG audits (2022).</li>
                             <li><span class="font-semibold">Accomplishments High-Growth IT:</span> Deployed 1,500-seater Contact Centre (2014) at OLACabs; 350+ cloud kitchens, AWS migration Award (2018) at Rebel Foods.</li>
@@ -541,7 +545,7 @@
 
                 <div id="professional-experience" class="tab-content-section">
                     <div class="professional-experience-section mb-6">
-                        <h2>PROFESSIONAL EXPERIENCE</h2>
+                     <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-500 pb-1 mb-3">PROFESSIONAL EXPERIENCE</h2>
 
                         <div class="mb-4">
                             <p class="job-title">Global Vice President, IT and Infrastructure</p>
@@ -600,7 +604,7 @@
 
                 <div id="board-esg" class="tab-content-section">
                     <div class="board-esg-section mb-6">
-                        <h2>BOARD & ESG CONTRIBUTIONS</h2>
+                        <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-500 pb-1 mb-3">BOARD & ESG CONTRIBUTIONS</h2>
                         <ul>
                             <li><span class="font-semibold">Chaired IT Governance Committee:</span> Enabled $15M+ in strategic tech investments, ensuring alignment with business objectives and risk mitigation.</li>
                             <li><span class="font-semibold">ESG Tech Sponsor:</span> Championed initiatives that reduced data center energy impact by 25%, contributing to corporate sustainability goals.</li>
@@ -611,7 +615,7 @@
 
                 <div id="education" class="tab-content-section">
                     <div class="education-section mb-6">
-                        <h2>EDUCATION</h2>
+                       <h2 class="text-2xl font-semibold text-gray-800 border-b-2 border-blue-500 pb-1 mb-3">EDUCATION</h2>
                         <p class="font-semibold">Executive MBA</p>
                         <p>Leadership & Strategy | Indian Institute of Management (IIM) Calcutta, 2018</p>
                         <p class="mt-2 font-semibold">Master's Computer Applications</p>
